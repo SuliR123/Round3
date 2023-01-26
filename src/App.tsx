@@ -23,4 +23,12 @@ function App() {
   );
 }
 
+export function FrogPic(){
+  return (
+    <div className="flex justify-center items-center min-w-full min-h-screen">
+      <img className="w-80 h-50" src={require('./FrogPic.jpeg')}></img>
+    </div>
+  )
+}
+
 export default App;
